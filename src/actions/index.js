@@ -1,7 +1,7 @@
 //Acton creator
 
 //named export
-export const songSelected = () => {
+export const selectSong = (song) => {
     //return an action
     return {
         type: 'SONG_SELECTED',
